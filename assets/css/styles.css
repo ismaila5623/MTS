@@ -1,0 +1,336 @@
+:root {
+    --color-white:white;
+    --color-gray:gray;
+    --color-gray--light:lightgray;
+    --color-blue:rgb(35,85,131);
+    --color-black:black;
+    --color-green:green;
+    --color-red:red;
+
+    --font-large--x4:1.4rem;
+    --font-large--x2:1.2rem;
+    --font-large:.9rem;
+    --font-normal:.8rem;
+    --font-small:.6rem;
+    --font-small--x2:.5rem;
+
+    --font-bold:bold;
+    --font-thin:thin;
+
+    --padding-small--top:1em;
+    --padding-small--bottom:1em;
+    --padding-small--all:1em;
+
+    --margin-small--top:1em;
+    --margin-small--bottom:1em;
+    --margin-small--all:1em;
+
+    --b-radius--thin-x2:.5em;
+    --b-radius--thin:1em;
+    --b-radius--small:2em;
+    --b-radius--round:50%;
+
+    --main-container:0 2em;
+    --sub-main--container:0 3em;
+    --menu:var(--font-large);
+    --welcome:var(--font-large--x4);
+    --title:var(--font-large--x4);
+    --subtitle:var(--font-large--x2);
+    --desc:var(--font-large);
+    --text-small:var(--font-normal);
+    --form-text:var(--font-large);
+}
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+}
+
+/* COMMON CLASSES */
+.main-container, .sub-main--container{
+}
+.main-container{
+}
+.sub-main--container{
+}
+h1,h2,h3,h4,h5,h6,p,div,nav{
+    padding:0;
+    margin:0;
+}
+img{
+    width:100%;
+    height:100%;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border:none;
+}
+.bg-white{
+    background-color: var(--color-white);
+}
+.bg-gray{
+    background-color: var(--color-gray);
+}
+.bg-gray--light{
+    background-color: var(--color-gray--light);
+}
+.bg-blue{
+    background-color: var(--color-blue);
+}
+.bg-black{
+    background-color: var(--color-black);
+}
+.bg-green{
+    background-color: var(--color-green);
+}
+.bg-red{
+    background-color: var(--color-red);
+}
+.white{
+    color:var(--color-white);
+}
+.gray{
+    color:var(--color-gray);
+}
+.gray-light{
+    color:var(--color-gray--light);
+}
+.blue{
+    color:var(--color-blue);
+}
+.black{
+    color:var(--color-black);
+}
+.green{
+    color:var(--color-green);
+}
+.red{
+    color:var(--color-red);
+}
+.title{
+    font-size: var(--title);
+    font-weight: var(--font-bold);
+    letter-spacing: .4rem;
+    text-shadow: 10px 10px 20px black;
+    margin-bottom:var(--margin-small--bottom);
+    position:relative;
+}
+.title::after{
+    content:'';
+    width:100%;
+    height:2px;
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+.title-white{
+    color:var(--color-white);
+}
+.title-white::after{
+    background-color: var(--color-white);
+}
+.title-black{
+    color:var(--color-black);
+}
+.title-black::after{
+    background-color: var(--color-black);
+}
+.title-blue{
+    color:var(--color-blue);
+}
+.title-blue::after{
+    background-color: var(--color-blue);
+}
+.subtitle{
+    font-size: var(--subtitle);
+}
+.desc{
+    font-size: var(--desc);
+}
+.text-small{
+    font-size: var(--font-small);
+}
+.text-small--bold{
+    font-size: var(--font-small);
+    font-weight: var(--font-bold);
+}
+.center{
+    text-align: center;
+}
+/* COMMON CLASSES END */
+
+/* SPECIFIC CLASSES */
+.founder-title{
+
+}
+.office .services-title{
+
+}
+.field .services-title{
+    margin-bottom:0;
+}
+.products-title{
+    margin-bottom: 0;
+}
+.product-title{
+}
+.team-title{
+    margin-bottom: 0;
+}
+.contact-title{
+
+}
+
+
+/* SPECIFIC CLASSES END */
+/* MAIN CONTAINERS */
+.msbm{
+}
+.header{
+}
+.main{
+}
+.footer{    
+}
+
+
+/* MAIN CONTAINERS END */
+
+/* HEADER */
+/* Header Top */
+.header-top, .header-bottom{
+}
+.header-bottom{
+}
+.nav{
+}
+.nav .logo{
+}
+.menu-list{
+}
+.menu-item{
+}
+.menu-link{
+}
+/* Header Top end */
+
+/* Header Bottom */
+.header-bottom .welcome{
+}
+.header-bottom marquee{
+}
+.header-bottom p{
+}
+/* Header Bottom end */
+/* HEADER END */
+
+
+/* SECTION */
+.sec{
+}
+.container{
+}
+.item{
+}
+/* Founder */
+.founder-section{
+
+}
+.founder-container{
+}
+.founder-item{
+}
+.founder-img{
+}
+.founder-text--container{
+}
+
+/* Founder end */
+
+/* Services */
+.services-section{
+
+}
+.services-container{
+    
+}
+.services-item{
+
+}
+/* Office */
+.office{
+}
+.office .services-container{
+}
+.office .services-item{
+}
+.office .top{
+}
+.office .left, .office .right{
+}
+.office .left{
+}
+.office .right{
+}
+.office .middle{
+}
+/* Office end */
+
+/* field */
+.field{
+}
+.field .services-container{
+}
+.field .services-item{
+}
+
+/* field end */
+/* Services end */
+
+/* Products */
+.products-section{
+}
+.products-category--container{
+}
+.products-container{
+}
+.products-item{
+}
+/* Products end */
+
+/* Team */
+.team-section{
+}
+.team-container{
+}
+.team-item{
+}
+.staff{
+}
+
+/* Team end */
+
+/* Contact */
+.contact-section{
+}
+.contact-container{
+}
+.contact-item{
+}
+
+/* Contact end */
+/* SECTION END */
+
+
+/* FOOTER */
+.footer{
+}
