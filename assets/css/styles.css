@@ -292,15 +292,24 @@ button{
 }
 /* Founder */
 .founder-section{
-
+    padding:var(--padding-small--top) var(--padding-small--all) 0;
+    margin-top:var(--margin-small--top);
+    z-index: -99;
 }
 .founder-container{
+    justify-content: space-between;
 }
 .founder-item{
+    height:470px;
 }
 .founder-img{
+    object-fit: cover;
+    border-radius: var(--b-radius--thin);
 }
 .founder-text--container{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
 }
 
 /* Founder end */
