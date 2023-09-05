@@ -702,10 +702,67 @@ button{
 
 /* Contact */
 .contact-section{
+    height:fit-content;
+    margin-bottom: var(--margin-small--bottom);
+    padding-left: 0;
+    padding-right:0;
+}
+.contact-section, .contact-item:first-child{
+    border-top-left-radius: var(--b-radius--thin);
+    border-bottom-left-radius: var(--b-radius--thin);
 }
 .contact-container{
+    padding:0 2em;
 }
 .contact-item{
+    flex-basis: 50%;
+    height:100%;
+}
+.contact-text--list{
+    padding: 0 3.5em;
+}
+.contact-text--list li{
+    list-style-type:circle;
+    margin-bottom:3em;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2em 3em;
+    gap:1.5em;
+}
+.form-item{
+    display:flex;
+    flex-direction: column;
+    gap:1em;
+}
+.label{
+    font-size: var(--form-text);
+}
+.form-input{
+    width:100%;
+    height:30px;
+    font-size: var(--form-text);
+}
+.form-input:focus, .form-btn{
+    border:none;
+    outline:none;
+}
+.form-textarea{
+    height:125px;
+}
+.form-btn{
+    padding: .5em 0;
+    font-size: var(--form-text);
+    background-color: var(--color-blue);
+    border:2px solid var(--color-white);
+    cursor: pointer;
+}
+.form-btn:hover{
+    color:var(--color-blue);
+    background-color: var(--color-gray--light);
+    border:none;
 }
 
 /* Contact end */
