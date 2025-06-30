@@ -291,9 +291,11 @@ button{
     position:relative;
 }
 .nav .logo{
-    width:160px;
-    height:30px;
-    margin-right:2em;
+    width:250px;
+    height:70px;
+    margin-right:1em;
+    position:relative;
+    left:-105px;
 }
 .menu-list{
     flex:1;
